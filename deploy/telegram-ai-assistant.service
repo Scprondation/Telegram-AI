@@ -1,0 +1,16 @@
+[Unit]
+Description=Telegram AI assistant
+After=network-online.target ollama.service
+Wants=network-online.target ollama.service
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/dasha
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/opt/dasha/.venv/bin/python /opt/dasha/main.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

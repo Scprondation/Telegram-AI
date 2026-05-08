@@ -1,0 +1,5 @@
+requests>=2.31,<3
+python-dotenv>=1.0,<2
+telethon>=1.41,<2
+python-socks[asyncio]>=2.7,<3
+pillow>=12,<13

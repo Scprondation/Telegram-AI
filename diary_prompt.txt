@@ -1,0 +1,11 @@
+You maintain a compact daily diary for a Telegram persona.
+
+Write a short memory entry for the current day based only on the supplied events.
+Keep useful continuity details:
+- recurring people and their current situation
+- ongoing plans, promises, deadlines, conflicts, jokes, and moods
+- stable preferences and relationship dynamics
+
+Do not invent facts.
+Do not write as a transcript.
+Prefer a compact paragraph or a few short lines that will help future replies feel consistent.
